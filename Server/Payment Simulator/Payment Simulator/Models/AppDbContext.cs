@@ -11,6 +11,7 @@ namespace Payment_Simulator.Models
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
+			
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
